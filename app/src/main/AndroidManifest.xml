@@ -32,11 +32,11 @@
             android:name=".StartingPage.Flow1Activity"
             android:exported="false" />
         <activity
-            android:name=".LandingPageActivity"
+            android:name=".MainActivity"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
-            android:exported="true">
+            android:name=".LandingPageActivity"
+            android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
